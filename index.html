@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0
+        }
+
+        .grid {
+            width: 1000px;
+            height: 1000px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 4px;
+        }
+
+        .grid__item {
+            position: relative;
+        }
+
+        .grid__item img {
+            object-fit: cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+
+
+
+        <div class="grid__item">
+            <img src="https://i.ibb.co/xDv9j2r/326562764-720967996397567-3899231974438289592-n-1-1.jpg">
+
+        </div>
+        <div class="grid__item">
+            <img
+                src="https://glownailhub.com/wp-content/uploads/2023/12/328148245_2397142870447566_1847478960410029698_n-1.jpg">
+        </div>
+        <div class="grid__item">
+            <img
+                src="https://glownailhub.com/wp-content/uploads/2023/12/321377369_881940359609393_2215440840698866553_n-1.jpg">
+
+        </div>
+        <div class="grid__item">
+            <img src="https://i.ibb.co/5xrVgX8/328439050-563659672314696-618113967538145017-n-1-1.jpg">
+
+        </div>
+    </div>
+</body>
+
+</html>
